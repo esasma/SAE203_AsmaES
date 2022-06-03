@@ -25,7 +25,7 @@
       </form>
       <h2 class="mt-6 font-barlow text-2xl font-bold uppercase text-cyan-700">Carte</h2>
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12871.339192195583!2d2.2355899610272547!3d48.85741964449077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e665b8c9802a53%3A0x9f0e27e1e9caf620!2sHippodrome%20ParisLongchamp!5e0!3m2!1sfr!2sfr!4v1653891257080!5m2!1sfr!2sfr"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.4578201312584!2d-7.621807384758294!3d33.593423849216165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d29ae28e5e59%3A0xbc873ee84be63091!2s45%20Bd%20de%20Paris%2C%20Casablanca%2020070%2C%20Morocco!5e0!3m2!1sen!2sfr!4v1654260651836!5m2!1sen!2sfr"
         style="border: 0"
         allowfullscreen=""
         loading="lazy"
@@ -33,8 +33,8 @@
         class="my-6 w-full md:h-80"
       ></iframe>
       <p class="mt-6 text-center font-barlow text-sm font-normal md:mb-10">
-        Hippodrome Paris Longchamps <br />
-        2 Rte des Tribunes, 75016 Paris
+        Musicca <br />
+        45 Bd de Paris, Casablanca 20070, Morocco
       </p>
     </div>
   </main>
