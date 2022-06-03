@@ -4,7 +4,7 @@
     <div class="col-span-2">
       <h1 class="mt-6 text-center font-barlow text-3xl font-bold uppercase">EL Mahajan Festival</h1>
       <div class="h-67 mt-6 flex">
-        <img src="../assets/festival.jpg" alt="structure avec du zellige" class="mt-6 h-60 w-40" />
+        <img src="../assets/festival.jpg" alt="structure avec du zellige" class="md:h-54 mt-6 h-36 w-40 md:w-60" />
         <div>
           <h2 class="m-6 font-barlow text-xl font-bold uppercase">L’histoire du festival</h2>
           <p class="mt-6 ml-6 font-barlow text-xs font-normal">
@@ -16,13 +16,13 @@
 
       <div class="h-67 mt-6 flex">
         <div>
-          <h2 class="m-6 font-barlow text-xl font-bold uppercase">Casablanca, Maroc 📍</h2>
-          <p class="mt-6 ml-6 font-barlow text-xs font-normal">
+          <h2 class="m-6 ml-1 font-barlow text-xl font-bold uppercase">Casablanca, Maroc 📍</h2>
+          <p class="mt-6 ml-1 font-barlow text-xs font-normal">
             Nous avons le plaisir de vous annoncer que le festival El Maharajan Casablanca ouvrira ses portes le samedi 16, 17 et 18
             juillets. En attendant on vous laisse decouvrir l’intégralité du festival
           </p>
         </div>
-        <img src="../assets/Map.jpg" alt="structure avec du zellige" class="mt-6 h-60 w-40" />
+        <img src="../assets/Map.jpg" alt="structure avec du zellige" class="md:h-54 mt-6 h-36 w-40 md:w-60" />
       </div>
 
       <h2 class="mt-6 mb-6 font-barlow text-2xl font-bold uppercase">Scènes</h2>
@@ -37,10 +37,11 @@
           lg:grid-cols-[repeat(auto-fit,minmax(224px,1fr))]
         "
       >
-        <img src="../assets/S2.jpg" alt="photo du festival" class="mt-6 sm:w-full" />
-        <img src="../assets/S6.png" alt="photo du festival" class="mt-6 sm:w-full" />
         <img src="../assets/S1.jpg" alt="photo du festival" class="mt-6 sm:w-full" />
+        <img src="../assets/S2.jpg" alt="photo du festival" class="mt-6 sm:w-full" />
         <img src="../assets/S3.jpg" alt="photo du festival" class="mt-6 sm:w-full" />
+        <img src="../assets/S4.png" alt="photo du festival" class="mt-6 sm:w-full" />
+        <img src="../assets/S5.jpg" alt="photo du festival" class="mt-6 sm:w-full" />
       </div>
     </div>
   </main>
