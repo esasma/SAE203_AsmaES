@@ -1,7 +1,7 @@
 <template>
   <footer class="flex flex-col justify-between bg-gray-100 md:h-52">
     <div class="relative mt-12 flex flex-row items-center justify-between p-6">
-      <LogoBase class="ml-1 mr-2 w-36" />
+      <LogoBase class="w-17 ml-0 mr-2 md:w-36" />
       <router-link to="/mentions" class="text-semibold font-barlow text-sm text-black lg:text-lg lg:font-bold"
         >Mentions légales</router-link
       >

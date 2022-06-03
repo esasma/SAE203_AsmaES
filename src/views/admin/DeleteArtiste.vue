@@ -2,9 +2,9 @@
   <main class="mx-6 sm:mx-32 md:mx-44 md:mt-6 lg:mx-64 lg:grid lg:grid-cols-2 lg:gap-40">
     <img :src="imageActuelle" class="mx-auto mt-6 md:w-full" />
     <form enctype="multipart/form-data" @submit.prevent="deleteArtiste">
-      <h1 class="mb-10 font-barlow text-2xl font-bold uppercase">Sppression d'un artiste</h1>
+      <h1 class="mb-10 font-barlow text-2xl font-bold uppercase text-red-700">Sppression d'un artiste</h1>
       <div class="mb-10 flex w-full">
-        <div class="bg-gray-900 p-3 font-barlow text-xl font-bold uppercase text-gray-100">Nom</div>
+        <div class="bg-teal-600 p-3 font-barlow text-xl font-bold uppercase text-gray-100">Nom</div>
         <input
           type="text"
           placeholder="Nom de l'artiste"
@@ -14,7 +14,7 @@
         />
       </div>
       <div class="mb-10 flex w-full">
-        <div class="bg-gray-900 p-3 font-barlow text-xl font-bold uppercase text-gray-100">Bio</div>
+        <div class="bg-teal-600 p-3 font-barlow text-xl font-bold uppercase text-gray-100">Bio</div>
         <input
           type="text"
           placeholder="Biographie"
@@ -24,7 +24,7 @@
         />
       </div>
       <div class="mb-10 flex w-full">
-        <div class="bg-gray-900 p-3 font-barlow text-xl font-bold uppercase text-gray-100">Albums</div>
+        <div class="bg-teal-600 p-3 font-barlow text-xl font-bold uppercase text-gray-100">Albums</div>
         <input
           type="text"
           placeholder="Albums notoires"
@@ -33,14 +33,14 @@
           disabled
         />
       </div>
-      <h5 class="mb-10 w-full bg-red-400 p-3 text-center font-barlow text-xl font-bold uppercase text-gray-100">
-        Attention, vous êtes sur le point de supprimer cet artiste, cette action est irréversible.
+      <h5 class="mb-10 w-full bg-red-700 p-3 text-center font-barlow text-xl font-bold uppercase text-gray-100">
+        Attention cette action est irréversible ! .
       </h5>
 
       <div class="flex flex-row justify-between gap-5">
-        <button type="submit" class="w-full bg-gray-900 p-3 font-barlow text-xl font-bold uppercase text-gray-100">Supprimer</button>
+        <button type="submit" class="w-full bg-teal-600 p-3 font-barlow text-xl font-bold uppercase text-gray-100">Supprimer</button>
 
-        <button class="w-full bg-gray-900 p-3 font-barlow text-xl font-bold uppercase text-gray-100">
+        <button class="w-full bg-teal-600 p-3 font-barlow text-xl font-bold uppercase text-gray-100">
           <router-link to="/listea">Annuler</router-link>
         </button>
       </div>
