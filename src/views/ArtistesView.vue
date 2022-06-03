@@ -14,9 +14,11 @@
     >
       <div v-for="artiste in listeArtistes" :key="artiste.id" class="flex flex-col items-center">
         <router-link :to="{ name: 'ArtisteView', params: { id: artiste.id } }">
-            <img :src="artiste.img" :alt="artiste.nom" class="h-28 w-56 object-cover"/>
+          <img :src="artiste.img" :alt="artiste.nom" class="h-40 w-60 object-cover" />
         </router-link>
-        <h2 class="font-barlow text-xl font-bold uppercase">{{ artiste.nom }} - <span class="font-normal">{{ artiste.categorie }}</span></h2>
+        <h2 class="font-barlow text-xl font-bold uppercase">
+          {{ artiste.nom }} - <span class="font-normal">{{ artiste.categorie }}</span>
+        </h2>
       </div>
     </div>
   </main>
@@ -59,7 +61,7 @@ export default {
     async getArtiste() {
       const firestore = getFirestore();
       const dbartiste = collection(firestore, "artistes");
-      const q = query(dbartiste, orderBy('categorie'));
+      const q = query(dbartiste, orderBy("categorie"));
       await onSnapshot(q, (snapshot) => {
         this.listeArtistes = snapshot.docs.map((doc) => ({
           id: doc.id,
