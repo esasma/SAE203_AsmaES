@@ -6,13 +6,30 @@
     <div class="mt-8 flex">
       <img src="../assets/imm.jpg" alt="structure avec du zellige" class="h-60 w-40 md:h-96 md:w-80" />
       <div>
-        <h2 class="m-6 font-barlow text-xl font-bold uppercase text-sky-700 lg:text-2xl">Le festival</h2>
+        <h2 class="ml-6 font-barlow text-xl font-bold uppercase text-sky-700 lg:text-2xl">Le festival</h2>
         <p class="mt-7 ml-6 font-barlow text-xs font-normal lg:text-base">
           Nous avons le plaisir de vous annoncer que le festival El Maharajan Casablanca ouvrira ses portes le vendredi 15, samedi 16 et
           dimanche 17 juillet. En attendant on vous laisse decouvrir l’intégralité du festival et ce qu'il propose.
         </p>
         <RouterLink to="/festival">
-          <button type="submit" class="mt-6 ml-6 self-end bg-cyan-700 px-7 py-1 font-barlow text-lg font-bold uppercase text-gray-100">
+          <button
+            type="submit"
+            class="
+              mt-6
+              ml-6
+              self-end
+              bg-cyan-700
+              px-4
+              pt-2
+              pb-2
+              font-barlow
+              text-xs
+              font-bold
+              uppercase
+              text-gray-100
+              lg:px-7 lg:py-1 lg:text-lg
+            "
+          >
             En savoir plus
           </button>
         </RouterLink>
