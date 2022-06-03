@@ -1,5 +1,5 @@
 <template>
-  <main class="ml-2 mr-2 sm:mx-32 md:mx-32 md:mt-7 lg:mx-56 lg:grid">
+  <main class="ml-2 mr-2 sm:mx-32 md:mx-14 md:mt-7 lg:mx-56 lg:grid">
     <img src="../assets/Fondzellige.jpg" alt="fond de zellige oriental" class="mt-10" />
 
     <div class="mt-8 flex">
@@ -14,7 +14,7 @@
     </div>
 
     <div>
-      <div class="mr-9 mt-14 ml-9 flex w-24 md:w-48 lg:w-64">
+      <div class="mr-9 mt-14 ml-9 flex w-24 md:w-48 lg:ml-28 lg:w-64">
         <img src="../assets/Balqees.jpg" alt="Chanteuse Balqees" /> <img src="../assets/Tiiwtiiw 1.jpg" alt="Chateur TiiwTiww" />
         <img src="../assets/Manal 1-2.png" alt="Chnateuse Manal" />
       </div>
@@ -31,8 +31,8 @@
             font-barlow font-bold
             uppercase
             text-white
-            md:w-5/6
-            lg:h-14 lg:w-9/12 lg:p-4
+            md:w-[576px]
+            lg:ml-28 lg:h-14 lg:w-[769px] lg:p-4
           "
         >
           Decouvrez la programmation
@@ -43,33 +43,35 @@
     <img src="../assets/Concert4.jpg" alt="Photo de scènes de concert" class="mt-14" />
 
     <div>
-      <div class="mr-9 mt-14 ml-9 flex w-24 md:w-48 lg:w-64">
+      <div class="mr-9 mt-14 ml-9 flex w-24 md:w-48 lg:ml-28 lg:w-64">
         <img src="../assets/Chaama.jpg" alt="Chanteuse Chaama" /> <img src="../assets/Khaled.jpg" alt="Chateur Khaled" />
         <img src="../assets/Dystinct 1.jpg" alt="Chnateur Dystinct" />
       </div>
-      <p
-        class="
-          text-1xl
-          mr-9
-          ml-9
-          w-72
-          bg-cyan-700
-          py-2
-          text-center
-          font-barlow font-bold
-          uppercase
-          text-white
-          md:w-5/6
-          lg:h-14 lg:w-9/12 lg:p-4
-        "
-      >
-        Decouvrez tous les artistes
-      </p>
+      <RouterLink to="/artistes">
+        <p
+          class="
+            text-1xl
+            mr-9
+            ml-9
+            w-72
+            bg-cyan-700
+            py-2
+            text-center
+            font-barlow font-bold
+            uppercase
+            text-white
+            md:w-[576px]
+            lg:ml-28 lg:h-14 lg:w-[769px] lg:p-4
+          "
+        >
+          Decouvrez tous les artistes
+        </p>
+      </RouterLink>
     </div>
     <h2 class="mt-14 text-center font-barlow text-xl font-bold uppercase lg:text-2xl">📍 Casablanca 📍</h2>
     <img src="../assets/fondcasa.jpg" alt="fond de zellige oriental" class="mt-9" />
 
-    <div class="mx-4 mt-14 flex w-24 space-x-3.5 md:mx-0 md:w-52 lg:w-64">
+    <div class="mx-4 mt-14 flex w-24 space-x-3.5 md:mx-0 md:w-52 lg:ml-28 lg:w-64">
       <img src="../assets/S1.jpg" alt="Image de scene" /> <img src="../assets/S2.jpg" alt="Image de scene" />
       <img src="../assets/S3.jpg" alt="Image de scene" />
     </div>
