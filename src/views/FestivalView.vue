@@ -3,14 +3,14 @@
     <div class="col-span-2"></div>
     <div class="col-span-2">
       <h1 class="mt-6 text-center font-barlow text-3xl font-bold uppercase text-sky-700">EL Mahajan Festival</h1>
-      <div class="h-67 mt-6 flex">
+      <div class="h-67 mt-6 ml-4 flex">
         <img
           src="../assets/festival.jpg"
           alt="structure avec du zellige"
           class="md:h-54 mt-6 h-36 w-40 md:w-60 lg:mt-14 lg:mr-11 lg:h-72 lg:w-96"
         />
         <div>
-          <h2 class="m-6 font-barlow text-xl font-bold uppercase text-sky-700 lg:mt-14">L’histoire du festival</h2>
+          <h2 class="ml-6 mt-4 font-barlow text-xl font-bold uppercase text-sky-700 lg:mt-14">L’histoire du festival</h2>
           <p class="mt-6 ml-6 font-barlow text-xs font-normal lg:text-base">
             industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
             type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electron
@@ -20,21 +20,22 @@
 
       <div class="h-67 mt-6 flex">
         <div>
-          <h2 class="m-6 ml-1 font-barlow text-xl font-bold uppercase text-sky-700">Casablanca, Maroc 📍</h2>
-          <p class="mt-6 ml-1 font-barlow text-xs font-normal lg:text-base">
+          <h2 class="mt-6 ml-4 font-barlow text-xl font-bold uppercase text-sky-700">Casablanca, Maroc 📍</h2>
+          <p class="mt-4 ml-4 font-barlow text-xs font-normal lg:text-base">
             Nous avons le plaisir de vous annoncer que le festival El Maharajan Casablanca ouvrira ses portes le samedi 16, 17 et 18
             juillets. En attendant on vous laisse decouvrir l’intégralité du festival
           </p>
         </div>
-        <img src="../assets/Map.jpg" alt="Carte de Casablanca" class="md:h-54 mt-6 h-36 w-40 md:w-60 lg:ml-32 lg:h-72 lg:w-96" />
+        <img src="../assets/Map.jpg" alt="Carte de Casablanca" class="md:h-54 ml-1 mt-6 h-36 w-40 md:w-60 lg:ml-32 lg:h-72 lg:w-96" />
       </div>
 
-      <h2 class="mt-6 mb-6 text-center font-barlow text-2xl font-bold uppercase text-sky-700 lg:mt-20">Scènes</h2>
-      <img src="../assets/Scenes.jpg" alt="differentes secenes du festival" class="lg:ml-56 lg:h-96 lg:w-3/5" />
+      <h2 class="my-6 text-center font-barlow text-2xl font-bold uppercase text-sky-700 lg:mt-20">Scènes</h2>
+      <img src="../assets/Scenes.jpg" alt="differentes secenes du festival" class="w-82 mx-6 h-56 lg:ml-56 lg:h-96 lg:w-3/5" />
 
       <h2 class="text-sky-7000 mt-6 text-center font-barlow text-2xl font-bold uppercase text-sky-700 lg:mt-20">Souvenir</h2>
       <div
         class="
+          mx-4
           grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(200px,1fr))]
           gap-x-5
           md:grid-cols-[repeat(auto-fit,minmax(300px,1fr))]
