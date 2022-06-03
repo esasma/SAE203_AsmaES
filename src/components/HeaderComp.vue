@@ -9,7 +9,7 @@
         <MenuItem v-slot="{ active }">
           <RouterLink
             to="/"
-            :class="{ 'bg-gray-400 text-gray-100': active, 'text-red-600 ': !active }"
+            :class="{ 'bg-gray-400 text-gray-100': active, 'text-cyan-800 ': !active }"
             class="font-barlow text-xl font-bold uppercase"
             >Accueil</RouterLink
           >
@@ -17,7 +17,7 @@
         <MenuItem v-slot="{ active }">
           <RouterLink
             to="/prog"
-            :class="{ 'bg-gray-400 text-gray-100': active, 'text-red-600 ': !active }"
+            :class="{ 'bg-gray-400 text-gray-100': active, 'text-cyan-800 ': !active }"
             class="font-barlow text-xl font-bold uppercase"
             >Programmation</RouterLink
           >
@@ -25,7 +25,7 @@
         <MenuItem v-slot="{ active }">
           <RouterLink
             to="/artistes"
-            :class="{ 'bg-gray-400 text-gray-100': active, 'text-red-600 ': !active }"
+            :class="{ 'bg-gray-400 text-gray-100': active, 'text-cyan-800 ': !active }"
             class="font-barlow text-xl font-bold uppercase"
             >Artistes</RouterLink
           >
@@ -33,7 +33,7 @@
         <MenuItem v-slot="{ active }">
           <RouterLink
             to="/festival"
-            :class="{ 'bg-gray-400 text-gray-100': active, 'text-red-600 ': !active }"
+            :class="{ 'bg-gray-400 text-gray-100': active, 'text-cyan-800 ': !active }"
             class="font-barlow text-xl font-bold uppercase"
             >Festival</RouterLink
           >
@@ -41,18 +41,16 @@
         <MenuItem v-slot="{ active }">
           <RouterLink
             to="/contact"
-            :class="{ 'bg-gray-400 text-gray-100': active, 'text-red-600 ': !active }"
+            :class="{ 'bg-gray-400 text-gray-100': active, 'text-cyan-800 ': !active }"
             class="font-barlow text-xl font-bold uppercase"
             >Contact</RouterLink
           >
         </MenuItem>
       </MenuItems>
     </Menu>
+    <RouterLink to="/"> <LogoBase /></RouterLink>
     <router-link to="/prog" class="hidden font-barlow text-xl font-bold uppercase text-gray-500 lg:block">Programmation</router-link>
     <router-link to="/artistes" class="hidden font-barlow text-xl font-bold uppercase text-gray-500 lg:block">Artistes </router-link>
-    <RouterLink to="/">
-      <LogoBase />
-    </RouterLink>
     <router-link to="/festival" class="hidden font-barlow text-xl font-bold uppercase text-gray-500 lg:block">Festival</router-link>
     <router-link to="/contact" class="hidden font-barlow text-xl font-bold uppercase text-gray-500 lg:block">Contact</router-link>
     <div class="w-8 lg:hidden"></div>
