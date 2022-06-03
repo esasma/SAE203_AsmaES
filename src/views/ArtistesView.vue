@@ -1,6 +1,6 @@
 <template>
   <main class="mx-6 bg-gray-100 sm:mx-32 md:mx-44 md:mb-20 md:mt-6 lg:m-0 lg:grid lg:grid-cols-6">
-    <h1 class="mt-6 text-center font-barlow text-3xl font-bold uppercase lg:col-span-full">Artistes</h1>
+    <h1 class="mt-6 text-center font-barlow text-3xl font-bold uppercase text-cyan-700 lg:col-span-full">Artistes</h1>
     <div class="col-span-1"></div>
     <div
       class="

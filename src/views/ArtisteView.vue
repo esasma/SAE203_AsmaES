@@ -2,16 +2,48 @@
   <main class="mx-6 bg-gray-100 sm:mx-32 sm:mb-56 md:mx-44 md:mt-6 lg:m-0 lg:mt-10 lg:grid lg:grid-cols-6">
     <div class="col-span-2"></div>
     <div class="col-span-2">
+      <RouterLink to="/artistes">
+        <button type="submit" class="self-end bg-cyan-700 px-7 py-1 font-barlow text-lg font-bold uppercase text-gray-100">
+          Tous les artistes
+        </button>
+      </RouterLink>
       <h1 class="mt-6 text-center font-barlow text-3xl font-bold uppercase">{{ artiste.nom }}</h1>
-      <img :src="imageActuelle" :alt="'photo de ' + artiste.nom" class="mx-auto mt-6 sm:w-full" />
-      <h2 class="mt-6 font-barlow text-xl font-bold uppercase">Bio</h2>
-      <p class="mt-6 font-barlow text-sm font-normal">
-        {{ artiste.bio }}
-      </p>
-      <h2 class="mt-6 font-barlow text-xl font-bold uppercase">Catégoorie</h2>
-      <p class="mt-6 font-barlow text-sm font-normal">{{ artiste.categorie }}</p>
-      <div class="mt-6 flex flex-row justify-center gap-6">
-        <img src="/Listen/spotify.png" alt="" /><img src="/Listen/deezer.png" alt="" />
+      <div class="bg-cyan-800 text-white">
+        <img :src="imageActuelle" :alt="'photo de ' + artiste.nom" class="mx-auto mt-6 sm:w-full" />
+        <div class="p-9 pt-2">
+          <h2 class="mt-6 font-barlow text-xl font-bold uppercase">Bio</h2>
+          <p class="mt-6 font-barlow text-sm font-normal">
+            {{ artiste.bio }}
+          </p>
+          <h2 class="mt-6 font-barlow text-xl font-bold uppercase">Catégorie</h2>
+          <p class="mt-6 font-barlow text-sm font-normal">{{ artiste.categorie }}</p>
+        </div>
+      </div>
+      <div>
+        <div class="mr-9 mt-14 ml-9 flex w-24 md:w-48 lg:ml-6 lg:w-36">
+          <img src="../assets/Balqees.jpg" alt="Chanteuse Balqees" /> <img src="../assets/Tiiwtiiw 1.jpg" alt="Chateur TiiwTiww" />
+          <img src="../assets/Manal 1-2.png" alt="Chnateuse Manal" />
+        </div>
+        <RouterLink to="/prog">
+          <p
+            class="
+              text-1xl
+              mr-9
+              ml-9
+              w-72
+              bg-red-600
+              py-2
+              text-center
+              font-barlow font-bold
+              uppercase
+              text-white
+              md:w-[576px]
+              lg:ml-6 lg:h-14 lg:w-[432px] lg:p-4
+            "
+          >
+            Decouvrez les artistes présenrt le même jour
+          </p>
+        </RouterLink>
       </div>
       <div class="md:h-64 lg:h-0"></div>
     </div>

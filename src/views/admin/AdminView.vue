@@ -8,7 +8,7 @@
         <RouterLink to="/listea">
           <button
             type="submit"
-            class="mt-14 ml-20 h-20 w-60 self-end bg-cyan-700 px-7 py-1 font-barlow text-lg font-bold uppercase text-gray-100"
+            class="mt-14 h-20 w-60 self-end bg-cyan-700 px-7 py-1 font-barlow text-lg font-bold uppercase text-gray-100 lg:ml-28"
           >
             Artistes
           </button>
@@ -18,7 +18,7 @@
         <RouterLink to="/listec">
           <button
             type="submit"
-            class="ml-20 mt-14 h-20 w-60 self-end bg-cyan-700 px-7 py-1 font-barlow text-lg font-bold uppercase text-gray-100"
+            class="mt-14 h-20 w-60 self-end bg-cyan-700 px-7 py-1 font-barlow text-lg font-bold uppercase text-gray-100 lg:ml-28"
           >
             Concerts
           </button>
