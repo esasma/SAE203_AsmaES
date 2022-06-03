@@ -2,9 +2,9 @@
   <main class="mx-6 sm:mx-32 md:mx-44 md:mt-6 lg:mx-64 lg:grid lg:grid-cols-2 lg:gap-40">
     <img :src="imageData" class="mx-auto mt-6 md:w-full" />
     <form @submit.prevent="updateArtiste">
-      <h1 class="mb-10 font-barlow text-2xl font-bold uppercase">Création d'un artiste</h1>
+      <h1 class="mb-10 font-barlow text-2xl font-bold uppercase text-teal-600">Création d'un artiste</h1>
       <div class="mb-10 flex w-full">
-        <div class="bg-gray-900 p-3 font-barlow text-xl font-bold uppercase text-gray-100">Nom</div>
+        <div class="bg-teal-600 p-3 font-barlow text-xl font-bold uppercase text-gray-100">Nom</div>
         <input
           type="text"
           placeholder="Nom de l'artiste"
@@ -14,7 +14,7 @@
         />
       </div>
       <div class="mb-10 flex w-full">
-        <div class="bg-gray-900 p-3 font-barlow text-xl font-bold uppercase text-gray-100">Bio</div>
+        <div class="bg-teal-600 p-3 font-barlow text-xl font-bold uppercase text-gray-100">Bio</div>
         <input
           type="text"
           placeholder="Biographie"
@@ -24,7 +24,7 @@
         />
       </div>
       <div class="mb-10 flex w-full">
-        <div class="bg-gray-900 p-3 font-barlow text-xl font-bold uppercase text-gray-100">Catégorie</div>
+        <div class="bg-teal-600 p-3 font-barlow text-xl font-bold uppercase text-gray-100">Catégorie</div>
         <input
           type="text"
           placeholder="Catégorie"
@@ -33,20 +33,20 @@
           required
         />
       </div>
-      <div class="w-full bg-gray-900 p-3 text-center font-barlow text-xl font-bold uppercase text-gray-100">Sélectionner une image</div>
+      <div class="w-full bg-teal-600 p-3 text-center font-barlow text-xl font-bold uppercase text-gray-100">Sélectionner une image</div>
       <input
         type="file"
         placeholder="Nom de l'artiste"
-        class="mb-10 w-full border-[1px] border-gray-400 bg-gray-100 p-2.5 font-barlow text-xl font-bold uppercase text-gray-900"
+        class="mb-10 w-full border-[1px] border-gray-400 bg-gray-100 p-2.5 font-barlow text-xl font-bold uppercase text-teal-600"
         name="file"
         id="file"
         ref="file"
         @change="previewImage"
       />
       <div class="flex flex-row justify-between gap-5">
-        <button type="submit" class="w-full bg-gray-900 p-3 font-barlow text-xl font-bold uppercase text-gray-100">Modifier</button>
+        <button type="submit" class="w-full bg-teal-600 p-3 font-barlow text-xl font-bold uppercase text-gray-100">Modifier</button>
 
-        <button class="w-full bg-gray-900 p-3 font-barlow text-xl font-bold uppercase text-gray-100">
+        <button class="w-full bg-teal-600 p-3 font-barlow text-xl font-bold uppercase text-gray-100">
           <router-link to="/listea">Annuler</router-link>
         </button>
       </div>
