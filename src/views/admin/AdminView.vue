@@ -2,19 +2,27 @@
   <main class="mx-6 mb-96 sm:mx-32 sm:mb-56 md:mx-44 md:mt-6 lg:m-0 lg:mb-96 lg:grid lg:grid-cols-6">
     <div class="col-span-2"></div>
     <div class="col-span-2">
-      <h1 class="mt-6 text-center font-barlow text-3xl font-bold uppercase">Administration</h1>
+      <h1 class="mt-6 text-center font-barlow text-3xl font-bold uppercase text-cyan-700">Administration</h1>
 
-      <div class="mt-10 flex flex-row items-center justify-between">
-        <h2 class="font-barlow text-2xl font-bold uppercase">Artistes</h2>
-        <router-link to="/listea">
-          <ButtonBlue />
-        </router-link>
+      <div class="mt-10">
+        <RouterLink to="/listea">
+          <button
+            type="submit"
+            class="mt-14 ml-20 h-20 w-60 self-end bg-cyan-700 px-7 py-1 font-barlow text-lg font-bold uppercase text-gray-100"
+          >
+            Artistes
+          </button>
+        </RouterLink>
       </div>
-      <div class="mt-6 flex flex-row items-center justify-between">
-        <h2 class="font-barlow text-2xl font-bold uppercase">Concerts</h2>
-        <router-link to="/listec">
-          <ButtonBlue />
-        </router-link>
+      <div class="mt-6">
+        <RouterLink to="/listec">
+          <button
+            type="submit"
+            class="ml-20 mt-14 h-20 w-60 self-end bg-cyan-700 px-7 py-1 font-barlow text-lg font-bold uppercase text-gray-100"
+          >
+            Concerts
+          </button>
+        </RouterLink>
       </div>
     </div>
     <div class="h-72"></div>
